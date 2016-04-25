@@ -1,0 +1,15 @@
+label {
+    display: block;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+}
+
+#preview {
+    border: 1px solid black;
+    width: 320px;
+    height: 568px;
+    overflow: scroll;
+}

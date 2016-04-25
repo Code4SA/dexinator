@@ -3,12 +3,13 @@ function dexinate(event) {
 
     input = input.replace("<br>", "<br />");
     input = input.replace("></script>", "> </script>");
+    input = input.replace("></iframe>", "> </iframe>");
 
 
     $("textarea[name='output']").val(input);
 
-    //$("#preview").empty();
-    //$("#preview").append($(input));
+    $("#preview").empty();
+    $("#preview").append($(input));
 
 }
 

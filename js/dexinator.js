@@ -1,7 +1,7 @@
 function dexinate(event) {
     var input = $(event.target).val();
 
-    ga('send', 'event', 'dexinate' 'input', input);
+    ga('send', 'event', 'dexinate', 'input', input);
 
     input = input.replace("<br>", "<br />");
     input = input.replace("></script>", "> </script>");
